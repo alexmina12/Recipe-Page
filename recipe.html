@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-rose-50">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script src="./recipe.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="desktop:w-[45%] mobile:w-[375px] mx-auto desktop:my-[10%]">
+    <div class="bg-white desktop:p-[24px] desktop:rounded-[32px]">
+      <!-- <div class="mb-16 test"> -->
+      <img
+        src="./assets/image-omelette.jpeg"
+        class="desktop:rounded-[24px] mb-8"
+        onclick="screenSize()"
+      />
+      <div class="mx-8">
+        <h1 class="font-bold">Simple Omelette Recipe</h1>
+        <p class="mb-16">
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </p>
+
+        <div class="mb-16 ml-8 bg-rose-50 p-4 rounded-xl">
+          <h3 class="rose font-bold">Preparation time</h3>
+          <ul class="list-disc marker:text-[#7B284F]">
+            <li><b>Total</b>: Approximately 10 minutes</li>
+            <li><b>Preparation</b>: 5 minutes</li>
+            <li><b>Cooking</b>: 5 minutes</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Ingredients</h2>
+          <ul class="list-disc marker:text-[#854632]">
+            <li>2-3 large eggs</li>
+            <li>Salt, to taste</li>
+            <li>Pepper, to taste</li>
+            <li>1 tablespoon of butter or oil</li>
+            <li>
+              Optional fillings: cheese, diced vegetables, cooked meats, herbs
+            </li>
+          </ul>
+        </div>
+        <hr class="my-8" />
+        <div>
+          <h2>Instructions</h2>
+          <ol class="list-decimal marker:text-[#854632] marker:font-bold">
+            <li>
+              <b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of
+              salt and pepper until they are well mixed. You can add a
+              tablespoon of water or milk for a fluffier texture.
+            </li>
+            <li>
+              <b>Heat the pan:</b> Place a non-stick frying pan over medium heat
+              and add butter or oil
+            </li>
+            <li>
+              <b>Cook the omelette:</b> Once the butter is melted and bubbling,
+              pour in the eggs. Tilt the pan to ensure the eggs evenly coat the
+              surface.
+            </li>
+            <li>
+              <b>Add fillings (optional):</b> When the eggs begin to set at the
+              edges but are still slightly runny in the middle, sprinkle your
+              chosen fillings over one are half of the omelette.
+            </li>
+            <li>
+              <b>Fold and serve:</b> As the omelette continues to cook,
+              carefully lift one edge and fold it over the fillings. Let it cook
+              for another minute, then slide it onto a plate.
+            </li>
+            <li>
+              <b>Enjoy:</b> Serve hot, with additional salt and pepper if
+              needed.
+            </li>
+          </ol>
+        </div>
+        <hr class="my-4" />
+        <div>
+          <h2>Nutrition</h2>
+          <p class="mt-4">
+            The table below shows nutritional values per serving without the
+            additional fillings.
+          </p>
+
+          <div class="grid grid-cols-2 grid-rows-4 my-6">
+            <div class="border-b-2 py-2">Calories</div>
+            <div class="brown font-bold border-b-2 py-2">277kcal</div>
+            <div class="border-b-2 py-2">Carbs</div>
+            <div class="brown font-bold border-b-2 py-2">0g</div>
+            <div class="border-b-2 py-2">Protein</div>
+            <div class="brown font-bold border-b-2 py-2">20g</div>
+            <div class="border-b-2 py-2">Fat</div>
+            <div class="brown font-bold border-b-2 py-2">22g</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

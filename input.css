@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Young";
+  src: url("https://fonts.google.com/specimen/Young+Serif");
+}
+
+@font-face {
+  font-family: "outfit";
+  src: url("https://fonts.google.com/specimen/Outfit");
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Young";
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 28px;
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p,
+li {
+  font-family: "outfit";
+  font-size: 16px;
+  color: hsl(30, 10%, 34%);
+}
+
+/* li::marker {
+  color: black;
+} */
+
+li {
+  margin-left: 20px;
+  padding-left: 15px;
+  line-height: 30px;
+}
+
+.brown {
+  color: hsl(14, 45%, 36%);
+}
+
+b {
+  color: black;
+}
+
+.rose,
+li .rose::marker {
+  color: hsl(332, 51%, 32%);
+}
